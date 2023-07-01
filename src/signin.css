@@ -1,0 +1,143 @@
+.container{
+    border:1px solid white;
+}
+
+.image{
+    display:inline-block;
+    border: 1px solid white;
+    height: 718px;
+}
+
+.image img{
+    display: block;
+    width:80%;
+    height: 50%;
+}
+
+.cat4{
+    width: 642px;
+}
+
+.signin_container{
+    width: 500px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    display: inline-block;
+    position: absolute;
+    align-items: center;
+    top:5%;
+    right: 16%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    color: #07001f;
+    margin-bottom: 1.5rem;
+}
+
+form .signin_input{
+    width: 400px;
+    outline: none;
+    padding: 12px 25px;
+    margin-bottom: 3px;
+    border-radius: 20px;
+    font-size: 17px;
+    border: 1px solid #fff;
+    background-color: #e4e4e4;
+}
+
+form .btn_signin{
+    font-size: 20px;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    width: 400px;
+    outline: none;
+    background-color: #006FFF;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.SignUpLink{
+    margin-top: 1.5rem;
+}
+
+.SignUpLink .signup{
+    text-decoration: none;
+    color: black;
+}
+
+.SignUpLink .signup:hover{
+    text-decoration: underline;
+}
+
+.changepassword .changepassword_link{
+    position: absolute;
+    top:46%;
+    right: 11%;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.input_field{
+    margin-bottom: 20px;
+}
+
+.ReCAPTCHA{
+   align-items: center;
+   margin-top: 30px;
+   padding-left: 90px;
+}
+
+form .btn_signin:hover{
+    background-color: rgba(17,107,143,0.877);
+}
+
+form .signin_input:focus{
+    border: 1px solid rgb(192,192,192);
+}
+
+.changepassword .changepassword_link:hover{
+    text-decoration: underline;
+}
+
+.memberchangepassword .memberchangepassword_link{
+    position: absolute;
+    top:42%;
+    right: 11%;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.memberchangepassword .memberchangepassword_link:hover{
+    text-decoration: underline;
+}
+
+.errorMsg{
+    color: red;
+}
+
+.member_signin_eyeoff{
+    position: absolute;
+    top: 34%;
+    left: 83%;
+    cursor: pointer;
+}
+
+.charityworker_signin_eyeoff{
+    position: absolute;
+    top: 37%;
+    left: 83%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px){
+    .image{
+         display: none;
+    }
+ }

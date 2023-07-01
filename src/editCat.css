@@ -1,0 +1,119 @@
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    background-color: #5fcf6adf;
+}
+
+ul .logo{
+    float: left;
+}
+
+ul .logo img{
+    width: 75px;
+}
+
+ul .title{
+    float: left;
+    position: absolute;
+    left: 75px;
+    top: 7px;
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+}
+
+ul .personinfo{
+    float: right;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+ul .personinfo .circleuser{
+    margin-right: 85px;
+    height: 22px;
+    color: white;
+}
+
+ul .personinfo .username{
+    margin-left: 10px;
+    font-size: 20px;  
+    position: absolute;
+    top:11px;
+    right: 80px;
+    font-weight: 500;
+    color: white;
+}
+
+ul .personinfo .angledown{
+    margin-left: 20px;
+    color: white;
+}
+
+.image{
+    display:inline-block;
+    border: 1px solid white;
+    height: 718px;
+}
+
+.image .cat5{
+    display: block;
+    width:350px;
+    height: 50%;
+}
+
+.image .cat6{
+    display: block;
+    width:350px;
+    height: 50%;
+}
+
+.editCat{
+    margin-top: 50px;
+}
+
+.catInfo_form{
+    font-size: 18px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: hidden;
+    width: 900px;
+    font-weight: 500;
+}
+
+.catInfo_form .catlabel{
+    padding: 10px 12px;
+}
+
+.catInfo_form .catInfo{
+    padding: 10px 12px;
+    font-size: 18px;
+    width: 450px;
+    outline: none;
+}
+
+.catInfo_form .catInfoInputField{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.form_title{
+    margin-top: 40px;
+    font-size: 35px;
+    background-color: #5fcf6adf;
+    color: white;
+    font-weight: 600;
+}
+
+.btn_submit{
+    font-size: 20px;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    width: 200px;
+    outline: none;
+    background-color: #2a8d34df;
+    color: white;
+    cursor: pointer;
+    border: none;
+}

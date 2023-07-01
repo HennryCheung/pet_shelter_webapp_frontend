@@ -1,0 +1,116 @@
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    background-color: #5fcf6adf;
+}
+
+ul .logo{
+    float: left;
+}
+
+ul .logo img{
+    width: 75px;
+}
+
+ul .title{
+    float: left;
+    position: absolute;
+    left: 75px;
+    top: 7px;
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+}
+
+ul .personinfo{
+    float: right;
+    cursor: pointer;
+}
+
+ul .personinfo .circleuser{
+    height: 22px;
+    color: white;
+    position: absolute;
+    right: 90px;
+}
+
+ul .personinfo .username{
+    font-size: 20px;  
+    font-weight: 500;
+    color: white;
+}
+
+ul .personinfo .angledown{
+    color: white;
+    position: absolute;
+    top: 13px;
+    right: 30px
+}
+
+.publicSearchInput{
+    margin-top: 20px;
+    margin-left: 560px;
+}
+
+.publicSearchInput input{
+    width: 400px;
+    outline: none;
+    padding: 12px 25px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    border: 1px solid #fff;
+    background-color: #e4e4e4;
+}
+
+.searchInput input:focus{
+    border: 1px solid rgb(192,192,192);
+}
+
+.cat{
+    display: inline-block;
+    margin-left: 30px;
+    width: 313px;
+    font-size: 15px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: hidden;
+    background-color: #5fcf6adf;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+}
+
+.cat tr .cat_image{
+    padding: 7px 1px;
+    width: 100px;
+}
+
+.cat tr .attribute{
+    padding: 7px 7px;
+    width: 100px;
+}
+
+.cat tr .data{
+    padding: 7px 7px;
+    width: 100px;
+}
+
+@media screen and (max-width: 800px){
+    .add{
+        position: absolute;
+        top: 155px;
+        left: 320px;
+    }
+
+    .cat{
+        margin-top: 80px;
+    }
+ }
+
+ @media screen and (max-width: 600px){
+    .add{
+        left: 200px;
+    }
+ }

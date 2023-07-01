@@ -1,0 +1,98 @@
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    background-color: #5fcf6adf;
+}
+
+ul .logo{
+    float: left;
+}
+
+ul .logo img{
+    width: 75px;
+}
+
+ul .title{
+    float: left;
+    position: absolute;
+    left: 75px;
+    top: 7px;
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+}
+
+ul .personinfo{
+    float: right;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+ul .personinfo .circleuser{
+    margin-right: 85px;
+    height: 22px;
+    color: white;
+}
+
+ul .personinfo .username{
+    margin-left: 10px;
+    font-size: 20px;  
+    position: absolute;
+    top:11px;
+    right: 80px;
+    font-weight: 500;
+    color: white;
+}
+
+ul .personinfo .angledown{
+    margin-left: 20px;
+    color: white;
+}
+
+.favouriteSearchInput{
+    margin-top: 20px;
+    margin-left: 245px;
+}
+
+.favouriteSearchInput input{
+    width: 400px;
+    outline: none;
+    padding: 12px 25px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    border: 1px solid #fff;
+    background-color: #e4e4e4;
+}
+
+.favouriteSearchInput input:focus{
+    border: 1px solid rgb(192,192,192);
+}
+
+.favourites{
+    margin-top: 50px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: hidden;
+    background-color: #5fcf6adf;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.favourites .table_header,.data{
+    padding: 4px 6px;
+}
+
+.btn_delete{
+    cursor: pointer;
+    background-color: #5fcf6adf;
+    border: none;
+}
+
+.trashcan{
+    height: 22px;
+    color: black;
+    margin-right: 10px;
+    cursor: pointer;
+}
